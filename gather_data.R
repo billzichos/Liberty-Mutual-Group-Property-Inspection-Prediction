@@ -8,6 +8,6 @@ setwd(wd)
 #   - test.csv.zip
 
 source("~/GitHub/Get-Raw-Data/download.R")
-downloadKaggle("liberty-mutual-group-property-inspection-prediction","sample_submission.csv.zip")
-downloadKaggle("liberty-mutual-group-property-inspection-prediction","train.csv.zip")
-downloadKaggle("liberty-mutual-group-property-inspection-prediction","test.csv.zip")
+downloadSingleKaggleZip("liberty-mutual-group-property-inspection-prediction","sample_submission.csv.zip", "sample_submission.csv")
+downloadSingleKaggleZip("liberty-mutual-group-property-inspection-prediction","train.csv.zip", "train.csv")
+downloadSingleKaggleZip("liberty-mutual-group-property-inspection-prediction","test.csv.zip", "test.csv")
